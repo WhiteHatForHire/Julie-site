@@ -1,0 +1,555 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Brittany Light\n"
+"POT-Creation-Date: 2017-02-03 16:02+0200\n"
+"PO-Revision-Date: 2015-10-10 19:53+0300\n"
+"Last-Translator: Anastis Sourgoutsidis <anastis@cssigniter.com>\n"
+"Language-Team: Anastis Sourgoutsidis <anastis@cssigniter.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:10
+msgid "Page not found"
+msgstr ""
+
+#: 404.php:13
+msgid ""
+"It looks like the page you are looking for is not here. Perhaps try "
+"searching?"
+msgstr ""
+
+#: 404.php:20
+msgid "Maybe you're interested in"
+msgstr ""
+
+#: comments.php:3
+msgid "Please do not load this page directly. Thanks!"
+msgstr ""
+
+#: footer.php:24
+#, php-format
+msgid ""
+"<a href=\"%1$s\">Brittany Light</a> WordPress Theme by CSSIgniter | "
+"Proudly powered by <a href=\"%2$s\">WordPress</a>"
+msgstr ""
+
+#: functions.php:57
+msgid "Main Menu"
+msgstr ""
+
+#. translators: If there are characters in your language that are not supported by Work Sans, translate this to 'off'. Do not translate into your own language.
+#: functions.php:85
+msgctxt "Work Sans font: on or off"
+msgid "on"
+msgstr ""
+
+#: functions.php:191
+msgctxt "widget area"
+msgid "Blog"
+msgstr ""
+
+#: functions.php:193
+msgid "This is the main sidebar."
+msgstr ""
+
+#: functions.php:201
+msgctxt "widget area"
+msgid "Pages"
+msgstr ""
+
+#: functions.php:203
+msgid ""
+"This sidebar appears on your static pages. If empty, the Blog sidebar will "
+"be shown instead."
+msgstr ""
+
+#: functions.php:211
+msgctxt "widget area"
+msgid "Pre-footer Instagram"
+msgstr ""
+
+#: functions.php:213
+msgid "Special site-wide area for the WP Instagram Widget plugin."
+msgstr ""
+
+#: functions.php:221
+msgctxt "widget area"
+msgid "Footer - Column 1"
+msgstr ""
+
+#: functions.php:223
+msgid "First column on footer. Wide."
+msgstr ""
+
+#: functions.php:231
+msgctxt "widget area"
+msgid "Footer - Column 2"
+msgstr ""
+
+#: functions.php:233
+msgid "Second column on footer. Narrow."
+msgstr ""
+
+#: functions.php:241
+msgctxt "widget area"
+msgid "Footer - Column 3"
+msgstr ""
+
+#: functions.php:243
+msgid "Third column on footer. Narrow."
+msgstr ""
+
+#: functions.php:251
+msgctxt "widget area"
+msgid "Footer - Column 4"
+msgstr ""
+
+#: functions.php:253
+msgid "Fourth column on footer. Wide."
+msgstr ""
+
+#: functions.php:324
+msgid "Facebook"
+msgstr ""
+
+#: functions.php:329
+msgid "Twitter"
+msgstr ""
+
+#: functions.php:334
+msgid "Pinterest"
+msgstr ""
+
+#: functions.php:339
+msgid "Instagram"
+msgstr ""
+
+#: functions.php:344
+msgid "Google Plus"
+msgstr ""
+
+#: functions.php:349
+msgid "LinkedIn"
+msgstr ""
+
+#: functions.php:354
+msgid "Tumblr"
+msgstr ""
+
+#: functions.php:359
+msgid "Flickr"
+msgstr ""
+
+#: functions.php:364
+msgid "Bloglovin"
+msgstr ""
+
+#: functions.php:369
+msgid "YouTube"
+msgstr ""
+
+#: functions.php:374
+msgid "Vimeo"
+msgstr ""
+
+#: functions.php:379
+msgid "Dribbble"
+msgstr ""
+
+#: functions.php:384
+msgid "WordPress"
+msgstr ""
+
+#: functions.php:389
+msgid "500px"
+msgstr ""
+
+#: functions.php:394
+msgid "Soundcloud"
+msgstr ""
+
+#: functions.php:399
+msgid "Spotify"
+msgstr ""
+
+#: functions.php:404
+msgid "Vine"
+msgstr ""
+
+#: inc/customizer.php:11
+msgctxt "customizer section title"
+msgid "Header Options"
+msgstr ""
+
+#: inc/customizer.php:18
+msgctxt "customizer section title"
+msgid "Layout Options"
+msgstr ""
+
+#: inc/customizer.php:29
+msgctxt "customizer section title"
+msgid "Social Networks"
+msgstr ""
+
+#: inc/customizer.php:30
+msgid ""
+"Enter your social network URLs. Leaving a URL empty will hide its "
+"respective icon."
+msgstr ""
+
+#: inc/customizer.php:35
+msgctxt "customizer section title"
+msgid "Posts Options"
+msgstr ""
+
+#: inc/customizer.php:36
+msgid "These options affect your individual posts."
+msgstr ""
+
+#: inc/customizer.php:41
+msgctxt "customizer section title"
+msgid "Footer Options"
+msgstr ""
+
+#: inc/customizer.php:51
+msgctxt "customizer section title"
+msgid "Upgrade to Pro"
+msgstr ""
+
+#: inc/customizer.php:74
+msgid "Automatically generated excerpt length (in words)"
+msgstr ""
+
+#: inc/customizer.php:84
+msgid "Show the excerpt."
+msgstr ""
+
+#: inc/customizer.php:85
+msgid ""
+"Applies only on the classic blog layout. If unchecked, the content is "
+"displayed instead."
+msgstr ""
+
+#: inc/customizer.php:95
+msgid "Pagination method"
+msgstr ""
+
+#: inc/customizer.php:97
+msgctxt "pagination method"
+msgid "Numbered links"
+msgstr ""
+
+#: inc/customizer.php:98
+msgctxt "pagination method"
+msgid "\"Previous - Next\" links"
+msgstr ""
+
+#: inc/customizer.php:113
+msgid "Show social icons."
+msgstr ""
+
+#: inc/customizer.php:127
+msgid "Show credits text."
+msgstr ""
+
+#: inc/customizer.php:138
+msgid "WP Instagram: Slideshow."
+msgstr ""
+
+#: inc/customizer.php:148
+msgid "WP Instagram: Slideshow Speed."
+msgstr ""
+
+#: inc/customizer.php:163
+msgid "Open social and sharing links in a new tab."
+msgstr ""
+
+#: inc/customizer.php:176
+#, php-format
+msgctxt "social network url"
+msgid "%s URL"
+msgstr ""
+
+#: inc/customizer.php:187
+msgid "RSS Feed"
+msgstr ""
+
+#: inc/customizer.php:195 part-related.php:4 part-related.php:5
+msgid "Related Posts"
+msgstr ""
+
+#: inc/customizer.php:201
+msgid "Related Posts section title"
+msgstr ""
+
+#: inc/customizer.php:213
+msgid "Brittany Pro"
+msgstr ""
+
+#: inc/customizer.php:215
+msgid "Do you enjoy Brittany Light? Upgrade to Pro now and get:"
+msgstr ""
+
+#: inc/customizer.php:217
+msgid "Multiple layouts"
+msgstr ""
+
+#: inc/customizer.php:218
+msgid "Infinite style variations"
+msgstr ""
+
+#: inc/customizer.php:219
+msgid "More Customizer options"
+msgstr ""
+
+#: inc/customizer.php:221
+msgid "Upgrade To Pro"
+msgstr ""
+
+#: inc/customizer.php:222
+msgid "Documentation"
+msgstr ""
+
+#: inc/customizer.php:239
+msgid "Limit logo size (for Retina display)"
+msgstr ""
+
+#: inc/customizer.php:240
+msgid ""
+"This option will limit the logo size to half its width. You will need to "
+"upload your logo in 2x the dimension you want to display it in."
+msgstr ""
+
+#: inc/customizer.php:250
+msgid "Show site title below the logo."
+msgstr ""
+
+#: inc/customizer.php:260
+msgid "Show the tagline below the logo."
+msgstr ""
+
+#: inc/customizer.php:270
+msgid "Logo top padding"
+msgstr ""
+
+#: inc/customizer.php:280
+msgid "Logo bottom padding"
+msgstr ""
+
+#: inc/functions.php:18
+msgctxt "previous post"
+msgid "Previous"
+msgstr ""
+
+#: inc/functions.php:19
+msgctxt "next post"
+msgid "Next"
+msgstr ""
+
+#: inc/functions.php:20
+msgid "Posts navigation"
+msgstr ""
+
+#: inc/helpers-post-meta.php:22
+msgid "Select file"
+msgstr ""
+
+#: inc/helpers-post-meta.php:23
+msgid "Select files"
+msgstr ""
+
+#: inc/helpers-post-meta.php:24
+msgid "Use this file"
+msgstr ""
+
+#: inc/helpers-post-meta.php:25
+msgid "Use these files"
+msgstr ""
+
+#: inc/helpers-post-meta.php:26
+msgid "Update gallery"
+msgstr ""
+
+#: inc/helpers-post-meta.php:27
+msgid "Loading..."
+msgstr ""
+
+#: inc/helpers-post-meta.php:28
+msgid "Gallery preview not available."
+msgstr ""
+
+#: inc/helpers-post-meta.php:29 inc/widgets/about-me.php:108
+#: inc/widgets/about-me.php:132
+msgid "Remove image"
+msgstr ""
+
+#: inc/helpers-post-meta.php:30 inc/helpers-post-meta.php:433
+msgid "Remove from gallery"
+msgstr ""
+
+#: inc/helpers-post-meta.php:263
+msgid "Click to toggle"
+msgstr ""
+
+#: inc/helpers-post-meta.php:422
+msgid "Add Images"
+msgstr ""
+
+#: inc/helpers-post-meta.php:424
+msgid "Randomize order"
+msgstr ""
+
+#: inc/helpers-post-meta.php:439
+msgid "Your gallery images will appear here"
+msgstr ""
+
+#: inc/helpers.php:23
+#, php-format
+msgid ""
+"It looks like the theme was just installed. <a href=\"%s\" target=\"_blank"
+"\">Download the sample content</a> to get things moving."
+msgstr ""
+
+#: inc/widgets/about-me.php:15
+msgid "Provide information for the blog author, accompanied by a picture."
+msgstr ""
+
+#: inc/widgets/about-me.php:17
+msgid "Theme - About Me"
+msgstr ""
+
+#: inc/widgets/about-me.php:97 inc/widgets/latest-posts.php:87
+#: inc/widgets/socials.php:45
+msgid "Title:"
+msgstr ""
+
+#: inc/widgets/about-me.php:100
+msgid "Author Image:"
+msgstr ""
+
+#: inc/widgets/about-me.php:114 inc/widgets/about-me.php:138
+msgid "Select Image"
+msgstr ""
+
+#: inc/widgets/about-me.php:118
+msgid "About text:"
+msgstr ""
+
+#: inc/widgets/about-me.php:120
+msgid "Greeting (sign off) text:"
+msgstr ""
+
+#: inc/widgets/about-me.php:121
+msgid "Signature text:"
+msgstr ""
+
+#: inc/widgets/about-me.php:124
+msgid "Signature Image:"
+msgstr ""
+
+#: inc/widgets/latest-posts.php:13
+msgid ""
+"Displays a number of the latest (or random) posts from a specific category."
+msgstr ""
+
+#: inc/widgets/latest-posts.php:15
+msgid "Theme - Latest Posts"
+msgstr ""
+
+#: inc/widgets/latest-posts.php:89
+msgid "Category to display the latest posts from (optional):"
+msgstr ""
+
+#: inc/widgets/latest-posts.php:104
+msgid "Show random posts."
+msgstr ""
+
+#: inc/widgets/latest-posts.php:106
+msgid "Number of posts to show:"
+msgstr ""
+
+#: inc/widgets/socials.php:10
+msgid "Displays the site's social icons."
+msgstr ""
+
+#: inc/widgets/socials.php:12
+msgid "Theme - Social Icons"
+msgstr ""
+
+#: inc/widgets/socials.php:46
+msgid ""
+"This widget displays your site's social icons. In order to set them up, "
+"you need to visit <strong>Appearance > Customize > Social Networks</"
+"strong> and provide the appropriate URLs where desired."
+msgstr ""
+
+#: item.php:38
+msgid "Read More <i class=\"fa fa-angle-right\"></i>"
+msgstr ""
+
+#: search.php:15
+msgid "No results found. Please broaden your terms and search again."
+msgstr ""
+
+#: search.php:16
+msgid ""
+"Just one result found. We either nailed it, or you might want to broaden "
+"your terms and search again."
+msgstr ""
+
+#: search.php:17
+#, php-format
+msgid "%d result found."
+msgid_plural "%d results found."
+msgstr[0] ""
+msgstr[1] ""
+
+#: search.php:21
+msgid "Search results"
+msgstr ""
+
+#: searchform.php:3
+msgid "Search for:"
+msgstr ""
+
+#: searchform.php:4
+msgctxt "search box placeholder"
+msgid "Search"
+msgstr ""
+
+#: searchform.php:5
+msgctxt "submit button"
+msgid "Search"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Brittany Light"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://www.cssigniter.com/ignite/themes/brittany-light/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Fashion / Lifestyle Blogging theme for WordPress"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "CSSIgniter"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://www.cssigniter.com"
+msgstr ""

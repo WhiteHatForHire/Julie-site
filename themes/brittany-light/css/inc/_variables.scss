@@ -1,0 +1,23 @@
+$grid-columns:      12 !default;
+$grid-gutter-width: 30px !default;
+
+$screen-xs-min: 480px !default;
+$screen-sm-min: 768px !default;
+$screen-md-min: 992px !default;
+$screen-lg-min: 1200px !default;
+
+$screen-xs-max: ($screen-sm-min - 1) !default;
+$screen-sm-max: ($screen-md-min - 1) !default;
+$screen-md-max: ($screen-lg-min - 1) !default;
+
+$body-bg: #F6F6F6 !default;
+$secondary-bg: #FFFFFF !default;
+$primary-color: #e62d4f !default;
+$text-color: #1f1f1f !default;
+$text-color-light: #5c5c5c !default;
+$border-color: #E6E6E6 !default;
+
+$header-height: 50px !default;
+
+$primary-font: 'Work Sans', sans-serif;
+$secondary-font: serif;

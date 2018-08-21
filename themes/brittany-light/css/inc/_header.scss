@@ -1,0 +1,222 @@
+/* -----------------------------------------
+	03. Header
+----------------------------------------- */
+/* Header Bar */
+.header {
+	position: relative;
+	z-index: 100;
+}
+
+p.site-logo { // Only on the top head bar
+	display: none;
+}
+
+.site-logo-textual {
+	display: block;
+}
+
+.header-bar {
+	background-color: $secondary-bg;
+	height: $header-height + 1;
+	border-bottom: 1px solid $border-color;
+	z-index: 10;
+	position: relative;
+}
+
+
+.header-bar-wrap {
+	@include clearfix;
+	position: relative;
+	background-color: $secondary-bg;
+	z-index: 10;
+}
+
+.header-bar-left {
+	width: 65%;
+	float: left;
+	@include clearfix;
+}
+
+.header-bar-right {
+	width: 35%;
+	float: right;
+	border-right: 1px solid $border-color;
+	@include clearfix;
+
+	.social-icons {
+		float: right;
+
+		li:last-child {
+			.social-icon {
+				border-right-width: 0;
+			}
+		}
+	}
+
+	.social-icon {
+		border-top-width: 0;
+		border-bottom-width: 0;
+		height: $header-height;
+	}
+}
+
+.main-search-trigger {
+	float: right;
+	height: $header-height;
+	width: 50px;
+	color: $text-color-light;
+	text-align: center;
+	border-left: 1px solid $border-color;
+	line-height: $header-height;
+
+	&:hover {
+		color: $primary-color;
+	}
+}
+
+.header-search-wrap {
+	position: absolute;
+	width: 100%;
+	top: -100px;
+	transition: top 0.22s ease;
+	z-index: 20;
+	left: 0;
+	padding: 0 15px;
+
+	&.searchform-visible {
+		top: $header-height;
+	}
+
+	.searchform {
+		padding: 15px;
+		background-color: $secondary-bg;
+		border: 1px solid $border-color;
+		width: 100%;
+	}
+}
+
+/* Site Identity */
+
+.logo-wrap {
+	text-align: center;
+	margin: 75px 0 0;
+}
+
+.site-logo {
+	text-transform: uppercase;
+	margin: 0;
+	line-height: 1;
+
+	img {
+		margin-bottom: 8px;
+	}
+
+	a {
+		color: $text-color;
+	}
+
+	.logo-wrap & {
+		font-size: 54px;
+		font-weight: 700;
+		letter-spacing: 0.14em;
+	}
+
+	.header-bar-left & {
+		float: left;
+		height: $header-height;
+		font-size: 32px;
+		letter-spacing: 0.1em;
+		padding-top: 9px;
+	}
+}
+
+.site-logo + .nav {
+	float: left;
+	margin-left: 25px;
+}
+
+.site-tagline {
+	@include font-style;
+	letter-spacing: 0.1em;
+}
+
+/* Header Cart */
+.cart-dropdown {
+	float: right;
+	height: 100%;
+	position: relative;
+
+	&:hover,
+	&.cart-dropdown-open {
+		.cart-dropdown-toggle {
+			background-color: $primary-color;
+			color: #FFF;
+
+			.ci-badge {
+				border-color: $primary-color;
+				background-color: #FFF;
+				color: $text-color-light;
+			}
+		}
+	}
+}
+
+.cart-dropdown-toggle {
+	display: inline-block;
+	height: 50px;
+	width: 50px;
+	color: $text-color-light;
+	font-size: 16px;
+	border-left: 1px solid $border-color;
+	text-align: center;
+	line-height: 50px;
+	position: relative;
+}
+
+.ci-badge {
+	text-indent: 1px;
+	width: 18px;
+	height: 18px;
+	display: inline-block;
+	font-size: 9px;
+	background-color: $primary-color;
+	color: #FFF;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 14px;
+	font-style: normal;
+	position: absolute;
+	font-weight: 600;
+	right: 4px;
+	top: 7px;
+	border: 2px solid #FFF;
+	transition: all 0.18s ease;
+}
+
+.cart-dropdown-content {
+	position: absolute;
+	right: -1px;
+	width: 290px;
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 0.25s ease;
+
+	.cart-dropdown-open & {
+		max-height: 600px;
+	}
+
+	.buttons {
+		margin: 0;
+	}
+
+	.button {
+		padding-top: 9px;
+		padding-bottom: 9px;
+	}
+}
+
+.cart-dropdown-content-wrap {
+	border: 1px solid $border-color;
+	background-color: $secondary-bg;
+	padding: 15px;
+}

@@ -1,0 +1,127 @@
+/* -----------------------------------------
+	02. Main Navigation
+----------------------------------------- */
+
+.nav {
+  border-left: 1px solid $border-color;
+}
+
+.nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.navigation {
+	@include clearfix();
+
+  // Navigation functional styles
+  li { position: relative; z-index: 100;}
+  > li { float: left; }
+  ul { position: absolute; z-index: 300; top: -999em; }
+  li:hover > ul,
+  .sfHover > ul { top: auto; margin-top: 1px; margin-left: -1px; }
+  li li:hover > ul,
+  li .sfHover > ul { top: -1px; left: 100%; margin: 0; }
+  li li li:hover > ul,
+  li li .sfHover > ul{ top: 0; left: 100%; }
+  a, .navigation a:visited { display: block; white-space: nowrap; }
+
+  a {
+    display: block;
+    height: $header-height;
+    text-transform: uppercase;
+    color: $text-color;
+    font-weight: 600;
+    font-size: 13px;
+    background-color: #FFF;
+    padding: 14px 20px;
+    /* Global Menu Link Styles */
+  }
+
+  > li:first-child > a { }
+  > li:last-child > a { }
+
+  a:hover,
+  .sfHover > a {
+    text-decoration: none;
+    /* First Level & Global Menu Link Hover Styles */
+  }
+
+  > li > a {
+    border-right: 1px solid $border-color;
+    /* First Level Menu Link Styles */
+  }
+
+  > li ul a {
+    border-bottom: 1px solid $border-color;
+    height: 40px;
+    padding: 9px 20px;
+    /* All Other Menu Level Link Styles */
+  }
+
+  > li ul a:hover,
+  > li ul .sfHover > a {
+    color: $primary-color;
+    /* All Other Level Menu Link Hover Styles */
+  }
+
+  > li > a:hover,
+  > li.sfHover > a,
+  > li.sfHover > a:active,
+  > li.current_page_item > a,
+  > li.current-menu-item > a,
+  > li.current-menu-ancestor > a,
+  > li.current-menu-parent > a,
+  > li.current > a {
+    color: $primary-color;
+
+   /* WordPress First Level Current/Ancestor Hover Page Styles */
+  }
+
+  ul {
+    border-left: 1px solid $border-color;
+    border-right: 1px solid $border-color;
+    min-width: 200px;
+
+    ul {
+      border-top: 1px solid $border-color;
+    }
+    /* All Lower Level Menu Container Styles */
+  }
+
+  a.sf-with-ul {
+    padding-right: 30px;
+    position: relative;
+    /* Styling for navigation arrows  ---------- */
+  }
+
+  &.sf-arrows .sf-with-ul:after {
+    content: '\f078';
+		font-family: FontAwesome;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    margin-top: -9px;
+		font-size: 8px;
+		font-weight: normal;
+  }
+
+  &.sf-arrows ul .sf-with-ul:after {
+ 		right: 8px;
+    margin-top: -6px;
+		content: "\f054";
+
+    /* Styling for right facing arrows  ---------- */
+  }
+}
+
+.mm-page {
+  position: static;
+}
+
+.mm-opened {
+  .mm-page {
+    position: relative;
+  }
+}

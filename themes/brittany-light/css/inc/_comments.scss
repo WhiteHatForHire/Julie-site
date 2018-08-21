@@ -1,0 +1,157 @@
+/* -----------------------------------------
+   06. Comments
+----------------------------------------- */
+#comments {
+	margin: 40px 0 0;
+
+	h2, h3 {
+		font-size: 20px;
+		font-weight: normal;
+		padding-top: 12px;
+		margin: 0 0 40px;
+		border-top: 1px solid $border-color;
+		text-transform: uppercase;
+	}
+}
+
+#comment-list {
+	margin: 0;
+	list-style: none;
+	padding: 0;
+
+	ol {
+		list-style: none;
+
+		@media ( max-width: $screen-xs-max ) {
+			margin: 0;
+			padding: 0;
+		}
+	}
+
+	.comment-body {
+		margin-bottom: 20px;
+		padding-top: 20px;
+
+		@media ( min-width: $screen-sm-min ) {
+			min-height: 130px;
+		}
+	}
+
+	> .comment:first-child > .comment-body {
+		border-top: none;
+		padding-top: 0;
+	}
+}
+
+.comment-body {
+	position: relative;
+}
+
+.post-comments {
+	margin: 0 0 45px;
+}
+
+.comment-author {
+	@include font-style;
+
+	b {
+		font-weight: normal;
+	}
+
+	a {
+		color: $text-color;
+
+		&:hover {
+			color: $primary-color;
+		}
+	}
+}
+
+.comment-author .avatar {
+	width: 110px;
+	height: 110px;
+	float: left;
+	margin: 0 30px 15px 0;
+	overflow: visible;
+
+	@media ( max-width: $screen-xs-max ) {
+		display: none;
+	}
+}
+
+.comment-content {
+	overflow: hidden;
+	zoom: 1;
+	font-size: 13px;
+}
+
+.comment-metadata {
+	@include font-style;
+	margin: 5px 0 15px;
+	letter-spacing: 0;
+
+	a {
+		color: $text-color;
+
+		&:hover {
+			color: $primary-color;
+		}
+	}
+}
+
+.comment-reply-link {
+	@extend .btn;
+	font-size: 10px;
+	text-transform: uppercase;
+	padding: 4px 10px;
+	margin-left: 80px;
+	height: auto;
+	width: auto;
+	position: absolute;
+	right: 0;
+	top: 15px;
+
+	@media ( max-width: $screen-xs-max ) {
+		margin: 0;
+	}
+}
+
+.bypostauthor > article .fn:before {
+	font-family: FontAwesome;
+	content: "\f005";
+	margin: 0 2px 0 -2px;
+	position: relative;
+	top: -1px;
+	font-size: 11px;
+}
+
+#cancel-comment-reply-link {
+	font-size: 13px;
+	font-weight: normal;
+	margin-left: 5px;
+}
+
+.form-allowed-tags,
+.comment-notes {
+	font-size: 12px;
+	line-height: 1.5;
+	color: rgba($text-color, 0.8);
+}
+
+.comment-form {
+	p[class^="comment-form"] {
+		margin-bottom: 30px;
+	}
+
+	.form-submit {
+		margin-bottom: 30px;
+
+		input {
+			width: 100%;
+		}
+	}
+
+	> *:last-child {
+		margin-bottom: 0;
+	}
+}

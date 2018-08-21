@@ -1,0 +1,31 @@
+/* -----------------------------------------
+  09.  MOBILE MENU
+----------------------------------------- */
+#mobilemenu {
+	display: none;
+
+	@media ( max-width: $screen-sm-max ) {
+		display: block;
+	}
+}
+
+.mobile-nav-trigger {
+	display: none;
+	float: left;
+	height: $header-height;
+	color: $text-color-light;
+	text-align: center;
+	border-left: 1px solid $border-color;
+	border-right: 1px solid $border-color;
+	line-height: $header-height;
+	padding: 0 15px;
+	border-right: 1px solid $border-color;
+	border-left: 1px solid $border-color;
+	text-transform: uppercase;
+	font-weight: 600;
+
+	&:hover,
+	&:active {
+		color: $text-color;
+	}
+}
